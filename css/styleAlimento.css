@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: 1pt 1pt 1pt 1pt;
+    grid-template-rows: 2pt 1pt 1pt;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    background-color: aqua;
+}
+
+.hijo {
+    background-color: rgb(230, 230, 230);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.mediana {
+    width: 100px;
+    height: 100px;
+}
+
+.pequeña {
+    width: 50px;
+    height: 50px;
+}

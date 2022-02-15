@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(192, 10, 238);
+    font-family: 'Cabin', sans-serif;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 100px;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+.box1 {
+    display: inline-block;
+}
+
+.box1 ul {
+    padding: 00px 10px 0px 300px;
+}
+
+.box1 img {
+    width: 300px;
+    padding: 100px 0px 0px 200px;
+}
+
+.logo {
+    position: absolute;
+    top: -0px;
+    left: 800px;
+    border: thin;
+    display: inline-block;
+}
+
+.usuario img {
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 1600px;
+}
