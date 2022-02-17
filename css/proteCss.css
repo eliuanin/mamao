@@ -60,7 +60,7 @@
                 grid-gap: 10px;
             }
             .producto {
-                height: 400px;
+                height: 200px;
             }
             .user {
                 height: 50px;
@@ -70,5 +70,8 @@
             }
             .carrito {
                 height: 100px;
+            }
+            .pading {
+                padding-top: 20px;
             }
         }
