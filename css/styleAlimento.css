@@ -3,26 +3,75 @@
     padding: 0;
 }
 
-.padre {
-    display: grid;
-    grid-template-columns: 1pt 1pt 1pt 1pt;
-    grid-template-rows: 2pt 1pt 1pt;
-    grid-template-columns: 2fr 3fr 1fr;
-    grid-template-rows: 4fr 1fr;
-    background-color: aqua;
+@media screen and (min-width: 320px) {
+    .headergrid {
+        display: grid;
+        grid-template-columns: 15% auto 15%;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .user {
+        height: 50px;
+    }
+    .logo {
+        height: 80px;
+    }
+    .carrito {
+        height: 50px;
+    }
+    .producto {
+        height: 250px;
+    }
+    .gred2 {
+        display: grid;
+        justify-items: center;
+    }
 }
 
-.hijo {
-    background-color: rgb(230, 230, 230);
-    border: solid 1px rgb(0, 0, 0);
-}
-
-.mediana {
-    width: 100px;
-    height: 100px;
-}
-
-.pequeña {
-    width: 50px;
-    height: 50px;
+@media screen and (min-width: 900px) {
+    header {
+        display: grid;
+        background-color: darkgoldenrod;
+    }
+    .headergrid {
+        grid-template-columns: 15% auto 15%;
+        grid-template-rows: auto;
+        grid-template-areas: "div", "h1", "div";
+        grid-gap: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+    nav {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        justify-items: center;
+        background-color: aquamarine;
+        grid-gap: 40px;
+    }
+    section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: blueviolet;
+        justify-items: start;
+        justify-content: space-between;
+        grid-gap: 10px;
+    }
+    .producto {
+        height: 200px;
+    }
+    .user {
+        height: 50px;
+    }
+    .logo {
+        height: 100px;
+    }
+    .carrito {
+        height: 50px;
+    }
+    .pading {
+        padding-top: 20px;
+    }
 }
