@@ -1,0 +1,48 @@
+$chico: 50px;
+$acua: rgb(97, 233, 224);
+$producto: 300px;
+* {
+    margin: 0;
+    padding: 0
+}
+
+@media screen and (min-width: 320px) {
+    .user {
+        height: 50px;
+    }
+    .logo {
+        height: 110px;
+    }
+    .carrito {
+        height: 50px;
+    }
+    .tienda {
+        height: 230px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        header {
+            div {
+                background-color: $acua;
+            }
+        }
+    }
+    .tamaño {
+        height: $producto;
+    }
+    section {
+        background-color: $acua;
+    }
+    .cuadrado {
+        width: 100px;
+        height: 50px;
+        background: $acua;
+    }
+    .cuadrado1 {
+        width: 100px;
+        height: 110px;
+        background: $acua
+    }
+}
